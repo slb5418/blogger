@@ -32,6 +32,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use paperclip? - Added 5/22/16 at 10:24 am by STEFAN BARRIERES
 gem "paperclip"
 
+# Use sorcery? - Added 5/22/16 at 11:51 am by Me :)
+gem "sorcery"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

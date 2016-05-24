@@ -8,10 +8,12 @@
 
 <p><%= @article.body %></p>
 
+<% if logged_in? %>
 <br></br>
 <%= link_to "Edit", edit_article_path(@article) %>
 <%= link_to "Delete", article_path(@article), method: :delete, data: {confirm: "Really delete this article?"} %>
 <br></br>
+<% end %>
 
 <p>
   Tags:
